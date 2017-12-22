@@ -2,14 +2,8 @@
 <div style="text-align:center">
     <div class="dropdown">
   
-      <span>Menu
-         <!--<SPAN STYLE=”background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1EMHNA0xnzLhkZD3UMWBT815o3ubjab1MWuVs3VOqqnF_p-BV); font-size: 20pt”>MakeUseOf presents…</SPAN><
-         -->
-      </span>
-  
-      <div class="dropdown-content">
+      <span>
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
-            <a href="csprojects.html">My Projects</a> 
-      </div>
-   </div>
+            <a href="csprojects.html">My Projects</a>
+      </span>
