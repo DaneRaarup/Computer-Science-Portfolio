@@ -1,11 +1,11 @@
 body {
-    background-image: url("rocket.png");
-    background-size: 2000px 900px;
+    background-image: url(Brick.jpg)
 }
 
 p {
     font-family:cursive;
     color: white;
+    font-size: 20px
 }
 
 h1 {
@@ -20,4 +20,6 @@ h2 {
 
 
 
-
+table, th, td {
+    border: 1px
+}
