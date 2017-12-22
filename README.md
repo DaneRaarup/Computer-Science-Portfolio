@@ -1,7 +1,5 @@
 # Dane Raarup
 <div style="text-align:center">
-    <div class="dropdown">
-  
       <span>
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
