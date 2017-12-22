@@ -1,4 +1,5 @@
 # Dane Raarup
+<link rel="icon" type="image/png" href="dane.PNG">
 <div style="text-align:center">
       <span>
             <a href="index.html">Home</a>
