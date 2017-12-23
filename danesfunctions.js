@@ -1,4 +1,4 @@
 function myfunction()
 {
-    alert("hi")
+    alert("hi");
 }
