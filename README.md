@@ -6,3 +6,4 @@
             <a href="myprojects.html">My Projects</a>
       </span>
      <img src="dane.PNG" alt="a picture of me">
+     
