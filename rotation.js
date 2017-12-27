@@ -1,10 +1,12 @@
 
-function rotateAnimation(el,speed){
+function rotateAnimation(el,speed)
+{
 
+    alert("Hello Javatpoint");  
     var looper;
     var degrees = 0;
     var elem = document.getElementById(el);
-    window.alert("hello kid")
+  
 	if(navigator.userAgent.match("Chrome")){
         elem.style.WebkitTransform = "rotate("+degrees+"deg)";
     }
