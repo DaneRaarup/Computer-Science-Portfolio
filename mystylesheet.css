@@ -22,9 +22,12 @@ h2 {
 
 
  th, td {
-    
+     background-color: white
+}
+
+th, td {
     font-family:cursive;
-    color: white;
+    color: black;
     border: 2px solid white;
     font-size: 20px
 }
@@ -32,10 +35,12 @@ h2 {
 p1 {
     font-family:cursive;
     color: white;
-    font-size: 5px
+    font-size: 10px
 }
-.span {
-    font-family:cursive;
-    color: white;
-    font-size: 5px
+span {
+    font-size: 20px
+}
+
+span {
+    background-color: white
 }
