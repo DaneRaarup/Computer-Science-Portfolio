@@ -1,5 +1,5 @@
 body {
-    background-image: url(Brick.jpg)
+    background-image: url(pexels-photo-14676.png)
 }
 
 p {
@@ -11,6 +11,7 @@ p {
 h1 {
     font-family:cursive;
     color: white;
+    font-size: 40px
 }
 
 h2 {
@@ -21,9 +22,28 @@ h2 {
 
 
  th, td {
-    
+     background-color: white
+}
+
+th, td {
     font-family:cursive;
-    color: white;
+    color: black;
     border: 2px solid white;
     font-size: 20px
+}
+
+p1 {
+    font-family:cursive;
+    color: white;
+    font-size: 10px
+}
+span {
+    font-size: 20px
+}
+
+span {
+    background-color: white
+}
+span {
+    padding: 10px
 }
