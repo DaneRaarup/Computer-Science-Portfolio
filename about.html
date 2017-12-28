@@ -14,11 +14,39 @@
                  <h1>Dane's Portfolio</h1>
                  <h2>Dane Raarup</h2>
                  <span>
-                    <img src="instalogo.png" width="30" height="30">
+                    <script>
+                        var looper;
+                        var degrees = 0;
+                        function rotateAnimation(el,speed){
+                          var elem = document.getElementById(el);
+                          if(navigator.userAgent.match("Chrome")){
+                            elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+                          } else if(navigator.userAgent.match("Firefox")){
+                            elem.style.MozTransform = "rotate("+degrees+"deg)";
+                          } else if(navigator.userAgent.match("MSIE")){
+                            elem.style.msTransform = "rotate("+degrees+"deg)";
+                          } else if(navigator.userAgent.match("Opera")){
+                            elem.style.OTransform = "rotate("+degrees+"deg)";
+                          } else {
+                            elem.style.transform = "rotate("+degrees+"deg)";
+                          }
+                          looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+                          degrees++;
+                          if(degrees > 359){
+                            degrees = 1;
+                          }
+                          document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+                        }
+                        </script>
+                        </head>
+                        <body>
+                        <img id="img1" src="instalogo.png" alt="cog1" width="30" height="30">
+                        <script>rotateAnimation("img1",.01);</script>
                     <a href="https://www.instagram.com/dane.raarup/">My Instagram Page</a>
                     &NonBreakingSpace;
                     <a href="https://www.youtube.com/channel/UCrkjVW_uAiH50uPgaZR-Zag">My Youtube Chanel</a>
-                    <img src= "youtubelogo.png" width= "30" height="30">
+                    <img id="img2" src="youtubelogo.png" alt="deez nuts" width= "30" height="30">
+                    <script>rotateAnimation("img2",.01);</script>
                  </span>
                  <br>
                  <br>
@@ -35,6 +63,8 @@
                   </audio>
                  <br>
                  <p1>Transportin' by: Kodak Black<p1>
+                   <br>
+                  <iframe src="https://www.instagram.com/dane.raarup/"></iframe>
                 </div>
              </body>
           </html>
