@@ -15,6 +15,18 @@ div#btn_marker{
 	-webkit-transition:left .5s ease 0s, width .5s linear 0s;
 	transition:left .5s ease 0s, width .5s linear 0s;
 }
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 </style>
 <script>
 function _(x){
@@ -32,18 +44,30 @@ function loadContent(btn){
 	_("btn_marker").style.left = btn.offsetLeft+"px";
 	_("btn_marker").style.width = btn.offsetWidth-2+"px";
 
-    if (btnID == "btn1") {
-		_("mycontent").innerHTML = "hi";
+     if (btnID == "btn1") {
+	 	_("mycontent").innerHTML = "hi";
 		}else if (btnID == "btn2") {
-		_("mycontent").innerHTML = "hello";
-		}else if (btnID == "btn3") {
-		_("mycontent").innerHTML = "good mornin'";
-		}else if (btnID == "btn4") {
-		_("mycontent").innerHTML = "good bye";
-		}else {
-		_("mycontent").innerHTML = "im here";
-		}
-    
+	 	_("mycontent").innerHTML = "hello";
+	 	}else if (btnID == "btn3") {
+	 	_("mycontent").innerHTML = "good mornin'";
+	 	}else if (btnID == "btn4") {
+	 	_("mycontent").innerHTML = "good bye";
+	 	}else {
+	 	_("mycontent").innerHTML = "im here";
+	 	}
+	
+	// switch (btnID) {
+
+	// 	case "btn1":
+	// 	window.alert(btnID);
+	// 	_("mycontent").innerHTML = "hi";
+    // case "btn2":
+	// 	_("mycontent").innerHTML = "hello";
+    // case "btn3":
+	// 	_("mycontent").innerHTML = "good mornin'";
+    // case "btn4":
+	// 	_("mycontent").innerHTML = "good bye";
+	// }
 }
 window.addEventListener('load', function(event) { initMenu(); });
 </script>
