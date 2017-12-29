@@ -26,12 +26,23 @@ function initMenu(){
 	_("btn_marker").style.display = "block";
 }
 function loadContent(btn){
-    window.alert(hello)
-    var btnId = getElementById(btn);
+	var btnID; 
+	btnID = btn.id;
+    
 	_("btn_marker").style.left = btn.offsetLeft+"px";
 	_("btn_marker").style.width = btn.offsetWidth-2+"px";
-    if (btnId = btn1) {_("mycontent").innerHTML = "hi";}
-    else if (btnId = btn2) {_("mycontent").innerHTML = "hello";}
+
+    if (btnID == "btn1") {
+		_("mycontent").innerHTML = "hi";
+		}else if (btnID == "btn2") {
+		_("mycontent").innerHTML = "hello";
+		}else if (btnID == "btn3") {
+		_("mycontent").innerHTML = "good mornin'";
+		}else if (btnID == "btn4") {
+		_("mycontent").innerHTML = "good bye";
+		}else {
+		_("mycontent").innerHTML = "im here";
+		}
     
 }
 window.addEventListener('load', function(event) { initMenu(); });
