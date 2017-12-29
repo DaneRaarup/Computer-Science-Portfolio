@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+div#mycontent{ font-size:18px; border:#000 1px solid; width:450px; height:250px; padding:20px; background:#DFEFFF; }
+div#mymenu > button{ padding: 10px 30px; }
+div#btn_marker{
+	position:absolute;
+	border:#000 1px solid; border-bottom:none;
+	width:0px;
+	height:10px;
+	top:67px;
+	display:none;
+	-webkit-transition:left .5s ease 0s, width .5s linear 0s;
+	transition:left .5s ease 0s, width .5s linear 0s;
+}
+</style>
+<script>
+function _(x){
+    return document.getElementById(x);
+}
+function initMenu(){
+	_("btn_marker").style.left = _("btn1").offsetLeft+"px";
+	_("btn_marker").style.width = _("btn1").offsetWidth-2+"px";
+	_("btn_marker").style.display = "block";
+}
+function loadContent(btn){
+    window.alert(hello)
+    var btnId = getElementById(btn);
+	_("btn_marker").style.left = btn.offsetLeft+"px";
+	_("btn_marker").style.width = btn.offsetWidth-2+"px";
+    if (btnId = btn1) {_("mycontent").innerHTML = "hi";}
+    else if (btnId = btn2) {_("mycontent").innerHTML = "hello";}
+    
+}
+window.addEventListener('load', function(event) { initMenu(); });
+</script>
+</head>
+<body>
+    <div style="text-align:center">
+<h1>Animated Button Marker System</h1>
+<div id="mymenu">
+  <div id="btn_marker"></div>
+  <button id="btn1" onclick="loadContent(this)">HTML5</button>
+  <button id="btn2" onclick="loadContent(this)">CSS</button>
+  <button id="btn3" onclick="loadContent(this)">JavaScript Program</button>
+  <button id="btn4" onclick="loadContent(this)">PHP</button>
+</div>
+<br>
+<div style="margin: 0 auto;" id="mycontent">hello</div>
+</div>
+</body>
+</html>
