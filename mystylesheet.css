@@ -46,3 +46,25 @@ p2 {
     color: white;
     font-size: 40px;
 }
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
+}
+ul {
+    font-size: 20px;
+    color: white;
+}
+h3 {
+    color: white;
+
+}
