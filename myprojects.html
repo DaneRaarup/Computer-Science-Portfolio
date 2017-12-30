@@ -8,14 +8,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="mystylesheet.css">
     <style>
-    div#mycontent{ font-size:18px; border:#000 1px solid; width:450px; height:250px; padding:20px; background:#DFEFFF; }
+    div#mycontent{ font-size:18px; border:#000 1px solid; width:450px; height:250px; padding:20px; background:#DFEFFF; margin:0 auto;
+line-height: 1.4em; }
     div#mymenu > button{ padding: 10px 30px; }
     div#btn_marker{
       position:absolute;
       border:rgb(255, 255, 255) 1px solid; border-bottom:none;
       width:0px;
       height:10px;
-      top:114px;
+      top:170px;
       display:none;
       -webkit-transition:left .5s ease 0s, width .5s linear 0s;
       transition:left .5s ease 0s, width .5s linear 0s;
@@ -46,6 +47,9 @@
             background-image: url("roy.gif");
             background-size: 380px 60px;
     }
+    @media only screen and (max-width: 479px){
+    div#mycontent { width: 90%; }
+}
     </style>
     <script>
         function _(x){
@@ -100,11 +104,12 @@
   <body>
     <div style="text-align:center">
       <br>
-      <span>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Me</a>
-            <a href="myprojects.html">My Projects</a>
-      </span>
+      <div class="row is table-row ">
+          <div class="col-sm-2 col-centered" style="background-color: white"><a href="index.html">Home</a></div>
+          <div class="col-sm-2 col-centered" style="background-color: white"><a href="about.html">About Me</a></div>
+          <div class="col-sm-2 col-centered" style="background-color: white"><a href="myprojects.html">My Projects</a></div>
+      </div>
+
      <h1>My Projects</h1>
 <div id="mymenu">
   <div id="btn_marker"></div>

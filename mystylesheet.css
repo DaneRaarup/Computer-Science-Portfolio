@@ -32,12 +32,7 @@ p1 {
     color: white;
     font-size: 10px;
 }
-a {
-    font-size: 20px;
-    background-color: white;
-    padding:5px;
 
-}
 
 p2 {
     color: white;
@@ -161,4 +156,18 @@ main{
     top: 27vw;
   }
  
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        font-size:10px;
+    }
+}
+ 
+@media screen and (max-width: 568px) {
+    .lead {
+        font-size:0.8em;
+    }
+}
+a {
+    font-size: 20px;
 }
