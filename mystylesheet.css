@@ -1,39 +1,46 @@
 body {
-    background-image: url(spacedoge.gif);
+    background-image: url(computer.jpg);
+    background-size: 1920px 1080px;
 }
 
-p {
-    color: white;
-    font-size: 20px;
-}
 
 h1 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 40px;
 }
 
-h2 {
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0)!important;
+    padding-top: 3in;
     color: white;
+    padding-left: 70px; 
+
 }
 
 
-
- th, td {
-     background-color: white;
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
 }
-
-th, td {
-    color: black;
-    border: 2px solid white;
-    font-size: 20px;
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
 }
-
-p1 {
-    color: white;
-    font-size: 10px;
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
 }
-
-
+.bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.bg-5 {
+    padding-bottom: 400px;
+}
 p2 {
     color: white;
     font-size: 40px;
@@ -58,115 +65,6 @@ ul {
 }
 h3 {
     color: white;
-
-}
-@import url(https://fonts.googleapis.com/css?family=Expletus+Sans:600);
-/*==========SCALE-IN==========*/
-@-webkit-keyframes scale-in {
-     0%   {transform: scale(10, 10); opacity: 0;}
-    100% {transform: scale(1, 1); opacity: 1;}
-}
-
-@keyframes scale-in {
-    0%   {transform: scale(10, 10); opacity: 0;}
-    100% {transform: scale(1, 1);  opacity: 1;}
-}
-/*==========ROLL-OUT==========*/
-@-webkit-keyframes roll-out {
-    0%   {width: 0;}
-    100% {width: 100%; }
-}
-@keyframes roll-out {
-    0%   {width: 0;}
-    100% {width: 100%; }
-}
-main{
-  width: 100%;
-  overflow: hidden;
-}
-.hero{
-  width: 100%;
-  max-width: 1200px;
-  height: 500px;
-  text-align: center;
-  margin: 0 auto;
-  position: relative; 
-}
-
-.hero h1{
-  font-size: 4.1em;
-  margin: auto;
-  position: absolute; 
-  top: 120px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
-.hero p{
-  font-size: 1.5em;
-  margin: auto;
-  position: absolute; 
-  top: 220px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-   z-index: 1;
-}
-.hero img{
-  width: 100%;
-}
-.bar{
-  width: 100%;
-  height: 200px;
-  background: blue;
-  opacity: 0.3;
-  position: absolute; 
-  z-index: 0;
-  left: 0;
-  top: 90px;
-  -ms-transform-origin: 100% 0%;
-  -webkit-transform-origin: 100% 0%;
-  transform-origin: 100% 0%;
-   -webkit-animation: roll-out 1.2s ease-out ;
-  -moz-animation: roll-out 1.2s ease-out ;
-    animation: roll-out 1.2s ease-out ; 
-}
-.hero h1, .hero p{
-  -webkit-animation: scale-in 1.3s ease-out;
-  -moz-animation: scale-in 1.3s  ease-out;
-    animation: scale-in 1.3s ease-out; 
-}
-
-
-@media all and (max-width: 768px) {
-  .hero{
-    height: 50vw;
-  }
-  .bar{
-    height: 26vw;
-    top: 10vw;
-  }
-  .hero h1{
-    font-size: 8vw;
-    top: 13vw;
-  }
-  .hero p{
-    font-size: 3vw;
-    top: 27vw;
-  }
- 
-}
-@media screen and (max-width: 768px) {
-    .hero {
-        font-size:10px;
-    }
-}
- 
-@media screen and (max-width: 568px) {
-    .lead {
-        font-size:0.8em;
-    }
 }
 a {
     font-size: 20px;
