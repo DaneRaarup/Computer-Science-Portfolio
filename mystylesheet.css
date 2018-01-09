@@ -1,8 +1,20 @@
 body {
     background-image: url(computer.jpg);
     background-size: 1920px 1080px;
+    background: linear-gradient(
+                     rgba(0, 0, 0, 0.5), 
+                     rgba(0, 0, 0, 0.5)),
+                     url(wood.jpg);
+                     background-size: 1920px 1080px;
 }
-
+@media (max-width: 700px) {
+    .navbar-header {
+      background-color: white;
+    }
+    nav.navbar {
+      border: 0px;
+    }
+  }
 
 h1 {
     color: rgb(0, 0, 0);
@@ -68,4 +80,7 @@ h3 {
 }
 a {
     font-size: 20px;
+}
+.navbar {
+    background-color: orange;
 }
