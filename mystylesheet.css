@@ -15,11 +15,17 @@ h1 {
     padding-left: 70px; 
 
 }
-
+@media (max-width: 978px) {
+    .jumbotron{
+        padding: 0;
+        overflow-x: hidden;
+        padding-left: 15px;
+    }
+}
 
 .bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
+    background-color: #ffffff; /* Green */
+    color: #000000;
 }
 .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
@@ -63,7 +69,7 @@ ul {
     color: white;
 }
 h3 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a {
     font-size: 20px;
