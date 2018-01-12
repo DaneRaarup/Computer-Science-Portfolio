@@ -28,7 +28,7 @@ h1 {
     color: #000000;
 }
 .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
+    background-color: blue; /* Dark Blue */
     color: #ffffff;
 }
 .bg-3 { 
@@ -43,8 +43,21 @@ h1 {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
+.container-fluid1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 .bg-5 {
     padding-bottom: 400px;
+}
+@media (max-width: 978px) {
+    .bg-5{
+        padding-bottom: 10px;
+        overflow-x: hidden;
+    }
 }
 p2 {
     color: white;
