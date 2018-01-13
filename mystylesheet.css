@@ -28,12 +28,12 @@ h1 {
     color: #000000;
 }
 .bg-2 { 
-    background-color: rgb(60, 60, 90); /* Dark Blue */
+    background-color: coral; /* Dark Blue */
     color: #ffffff;
     padding-top: 10px;
 }
 .bg-3 { 
-    background-color: #ffffff; /* White */
+    background-color: #757575; 
     color: #555555;
 }
 .bg-4 { 
@@ -97,5 +97,11 @@ p {
     padding-left: 10px;
 }
 h5 {
-    padding-left: 15px;
+    padding-left: 10px;
 }
+.carousel-item img {
+    padding-top: 10px;
+    width: 20%;
+    padding-bottom: 10px;
+}
+
