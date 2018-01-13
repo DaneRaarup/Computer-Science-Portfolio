@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="mystylesheet.css">
   <link rel="shortcut icon" type="image/png" href="joy.png">
 </head>
-<body class="fluid.container">
+<body class=".container-fluid">
 
 <nav class="navbar navbar-expand-md navbar-dark">
-  <a class="navbar-brand" href="index.html">Dane's Website</a>
+  <a class="navbar-brand font-weight-bold" href="index.html">Dane's Website</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -47,7 +47,7 @@
                 <h5>This is a portfolio website I am making and learning from to fulfill my urge to program.</h5>
               </div>     
             </div>
-  <div class="container-fluid bg-1 text-center">
+  <div class="fluid.container bg-1 text-center">
       <div class="row">
             <div class="col-sm-1"></div>
             <div class="col-sm-1"></div>
@@ -59,7 +59,7 @@
             <div class="col-sm-1"></div>
           </div>
       </div>
-      <div class="container-fluid1 bg-2 text-center">
+      <div class="fluid.container bg-2 text-center">
           <div class="row">
                 <div class="col-sm-8"><h2>"Coding is one of my favorite things!"</h2></div>
                 <div class="col-sm-4"><h4> - Dane Raarup</h4></div>
@@ -69,45 +69,44 @@
               <div class="row">
                 <div class="col-sm-6 bg-1"><img src="placeit.png" class="img-responsive" style="display:inline" width="300" height="400">
                 </div>
-                <div class="col-sm-6 bg-1">
+                <div class="col-sm-5 bg-1">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc iaculis ante ex. Sed vitae maximus ipsum. Fusce mollis erat lobortis ligula cursus venenatis. Etiam quis libero quis odio molestie facilisis ac in quam. Duis sit amet suscipit lacus. Quisque posuere orci sit amet mi dignissim porttitor.    
                 </div>
               </div>
             </div>
-            <div class="conatiner-fluid bg-3 text-center">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
+            <div class="fluid.container bg-3 text-center">
+            <div id="sliderindicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="html5.png" class="img-fluid" />
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="css3.png" class="img-fluid" />
-                    </div>
-                    <div class="carousel-item ">
-                        <img src="js.png" class="img-fluid" width="512px" height="512px"/>
-                    </div>
-                    <div class="carousel-item ">
-                      <img src="Bootstrap.png" class="img-fluid" width="512px" height="512px"/>
-                  </div>
-                    
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="html5.png" class="img-fluid" />
                 </div>
-
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="icon-prev"></span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="buytton" data-slide="next">
-                    <span class="icon-next"></span>
-                </a>
-
+                <div class="carousel-item ">
+                    <img src="css3.png" class="img-fluid" />
+                </div>
+                <div class="carousel-item ">
+                    <img src="js.png" class="img-fluid" />
+                </div>
+                <div class="carousel-item ">
+                  <img src="Bootstrap.png" class="img-fluid"/>
+              </div>
+                
             </div>
-
+              <a class="carousel-control-prev" href="#sliderindicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#sliderindicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              </a>
+              </div>
             </div>
 
             <div id="myModal" class="modal fade" role="dialog">
