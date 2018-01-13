@@ -5,7 +5,7 @@ body {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 40px;
+    font-size: 100px;
 }
 
 .jumbotron{
@@ -52,6 +52,7 @@ h1 {
 
 .bg-5 {
     padding-bottom: 400px;
+    
 }
 @media (max-width: 978px) {
     .bg-5{
@@ -89,4 +90,11 @@ a {
 }
 .navbar {
     background-color: orange;
+}
+p {
+    font-size: 18px;
+    padding-left: 10px;
+}
+h5 {
+    padding-left: 15px;
 }
